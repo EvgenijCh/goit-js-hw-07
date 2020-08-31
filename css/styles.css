@@ -1,0 +1,35 @@
+.Task {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+
+li {
+    list-style-type: none;
+}
+img {
+    width: 250px;
+    height: 150px;
+    margin-right: 5px;
+   }
+#gallery {
+    display: flex;
+         
+}
+
+#counter {
+    margin-bottom: 20px;
+}
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
