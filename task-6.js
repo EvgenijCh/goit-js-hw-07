@@ -5,7 +5,7 @@ checkInput.addEventListener("blur", writeCorrectQtySymbol);
 
 function writeCorrectQtySymbol() {
   if (
-    checkInput.value.length === Number(checkInput.getAttribute("data-length"))
+    checkInput.value.length === Number(checkInput.dataset.length)
   ) {
     checkInput.classList.remove("invalid");
     checkInput.classList.add("valid");
